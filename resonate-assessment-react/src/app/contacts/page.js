@@ -21,7 +21,7 @@ export default function Contacts() {
       <div className="flex justify-center bg-white fixed m-0 w-screen top-0 shadow-lg">
         <h1 className="text-2xl font-bold text-center py-4">Contacts</h1>
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-4 m-4 sm:gap-8 sm:m-8 my-24">
+      <div className="flex flex-wrap items-center justify-center gap-4 mx-4 my-24 sm:gap-8 sm:mx-8">
         {contacts.map((contact) => {
           return (
             <ContactCard key={contact.id} contact={contact}/>
